@@ -1,0 +1,56 @@
+Start testing: Jun 20 15:46 CAT
+----------------------------------------------------------
+1/1 Testing: HexEditorTests
+1/1 Test: HexEditorTests
+Command: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/hexedit_tests"
+Directory: /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build
+"HexEditorTests" start time: Jun 20 15:46 CAT
+Output:
+----------------------------------------------------------
+
+=== HEX/BIN/CHAR File Editor — Unit Tests ===
+
+FileBuffer:
+  Running: empty buffer ... PASS
+  Running: load and access ... PASS
+  Running: set byte ... PASS
+  Running: clear dirty ... PASS
+
+UndoHistory:
+  Running: empty history ... PASS
+  Running: push and undo ... PASS
+  Running: undo then redo ... PASS
+  Running: new edit clears redo ... PASS
+  Running: clear ... PASS
+
+Editor:
+  Running: hex input ... PASS
+  Running: binary input ... PASS
+  Running: char input ... PASS
+  Running: invalid char ignored ... PASS
+  Running: undo / redo ... PASS
+
+Search:
+  Running: parse hex pattern ... PASS
+  Running: parse hex invalid ... PASS
+  Running: parse ascii pattern ... PASS
+  Running: find next ... PASS
+  Running: find prev ... PASS
+  Running: not found ... PASS
+
+FileManager:
+  Running: write and read ... PASS
+  Running: read nonexistent ... PASS
+  Running: file exists ... PASS
+
+=== Results: 23 passed, 0 failed ===
+
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"HexEditorTests" end time: Jun 20 15:46 CAT
+"HexEditorTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 20 15:46 CAT
