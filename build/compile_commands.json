@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/main.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/main.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/main.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/application.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/application.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/application.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/application.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/file_buffer.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_buffer.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_buffer.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/file_buffer.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/file_manager.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_manager.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_manager.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/file_manager.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/display_view.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/display_view.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/display_view.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/display_view.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/editor.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/editor.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/editor.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/editor.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/command_handler.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/command_handler.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/command_handler.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/command_handler.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/undo_history.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/undo_history.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/undo_history.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/undo_history.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/usr/local/opt/ncurses/include -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit.dir/src/search.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/search.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/search.cpp",
+  "output": "CMakeFiles/hexedit.dir/src/search.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit_tests.dir/tests/test_main.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/tests/test_main.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/tests/test_main.cpp",
+  "output": "CMakeFiles/hexedit_tests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit_tests.dir/src/file_buffer.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_buffer.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_buffer.cpp",
+  "output": "CMakeFiles/hexedit_tests.dir/src/file_buffer.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit_tests.dir/src/file_manager.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_manager.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/file_manager.cpp",
+  "output": "CMakeFiles/hexedit_tests.dir/src/file_manager.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit_tests.dir/src/editor.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/editor.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/editor.cpp",
+  "output": "CMakeFiles/hexedit_tests.dir/src/editor.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit_tests.dir/src/undo_history.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/undo_history.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/undo_history.cpp",
+  "output": "CMakeFiles/hexedit_tests.dir/src/undo_history.cpp.o"
+},
+{
+  "directory": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build",
+  "command": "/usr/bin/c++  -I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/hexedit_tests.dir/src/search.cpp.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/search.cpp",
+  "file": "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src/search.cpp",
+  "output": "CMakeFiles/hexedit_tests.dir/src/search.cpp.o"
+}
+]

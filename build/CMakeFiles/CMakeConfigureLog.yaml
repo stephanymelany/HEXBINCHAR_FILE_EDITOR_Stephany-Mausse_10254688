@@ -1,0 +1,2282 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/uname"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/uname"
+      - "/Users/danieldarsamo/.local/bin/uname"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/uname"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Darwin - 25.5.0 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/gmake"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/gmake"
+      - "/Users/danieldarsamo/.local/bin/gmake"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/gmake"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/pkg/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/usr/local/share/dotnet/gmake"
+      - "/Users/danieldarsamo/.dotnet/tools/gmake"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/make"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/make"
+      - "/Users/danieldarsamo/.local/bin/make"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/make"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/make"
+      - "/usr/local/bin/make"
+      - "/usr/local/sbin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/c++"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/c++"
+      - "/Users/danieldarsamo/.local/bin/c++"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/c++"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/c++"
+      - "/usr/local/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/System/Cryptexes/App/usr/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake/Modules/"
+    found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/4.3.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:296 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 494 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/objcopy"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/objcopy"
+      - "/Users/danieldarsamo/.local/bin/objcopy"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/objcopy"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/pkg/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/usr/local/share/dotnet/objcopy"
+      - "/Users/danieldarsamo/.dotnet/tools/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/readelf"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/readelf"
+      - "/Users/danieldarsamo/.local/bin/readelf"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/readelf"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/pkg/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/usr/local/share/dotnet/readelf"
+      - "/Users/danieldarsamo/.dotnet/tools/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/dlltool"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/dlltool"
+      - "/Users/danieldarsamo/.local/bin/dlltool"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/dlltool"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/usr/local/share/dotnet/dlltool"
+      - "/Users/danieldarsamo/.dotnet/tools/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/addr2line"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/addr2line"
+      - "/Users/danieldarsamo/.local/bin/addr2line"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/addr2line"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/pkg/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/usr/local/share/dotnet/addr2line"
+      - "/Users/danieldarsamo/.dotnet/tools/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/tapi"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/tapi"
+      - "/Users/danieldarsamo/.local/bin/tapi"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/tapi"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/Users/danieldarsamo/.dotnet/tools/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+    searched_directories:
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/install_name_tool"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/install_name_tool"
+      - "/Users/danieldarsamo/.local/bin/install_name_tool"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/install_name_tool"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/usr/local/sbin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw"
+      binary: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_961aa/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_961aa.dir/build.make CMakeFiles/cmTC_961aa.dir/build
+        Building CXX object CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: x86_64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target x86_64-apple-darwin25.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/21/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_961aa
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_961aa.dir/link.txt --verbose=1
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: x86_64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_961aa -L/usr/local/lib -v CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1267
+        BUILD 18:28:38 Apr 22 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+        Library search paths:
+        	/usr/local/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_961aa
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/21/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/21/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_961aa/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_961aa.dir/build.make CMakeFiles/cmTC_961aa.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: x86_64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-3klvtw -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target x86_64-apple-darwin25.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/21/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_961aa]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_961aa.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: x86_64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_961aa -L/usr/local/lib -v CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_961aa] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_961aa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1267
+      BUILD 18:28:38 Apr 22 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:137 (find_library)"
+      - "CMakeLists.txt:34 (find_package)"
+    mode: "library"
+    variable: "CURSES_CURSES_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curses"
+    candidate_directories:
+      - "/usr/local/opt/ncurses/lib/"
+      - "/usr/local/opt/ncurses/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    found: "/usr/local/opt/ncurses/lib/libcurses.dylib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/usr/local/opt/ncurses"
+        - "/opt/homebrew/opt/ncurses"
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:139 (find_library)"
+      - "CMakeLists.txt:34 (find_package)"
+    mode: "library"
+    variable: "CURSES_NCURSES_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ncurses"
+    candidate_directories:
+      - "/usr/local/opt/ncurses/lib/"
+      - "/usr/local/opt/ncurses/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    found: "/usr/local/opt/ncurses/lib/libncurses.dylib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/usr/local/opt/ncurses"
+        - "/opt/homebrew/opt/ncurses"
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:177 (check_library_exists)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Looking for wsyncup in /usr/local/opt/ncurses/lib/libcurses.dylib"
+    directories:
+      source: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-tnjO3z"
+      binary: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-tnjO3z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CURSES_CURSES_HAS_WSYNCUP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-tnjO3z'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4b53/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b4b53.dir/build.make CMakeFiles/cmTC_b4b53.dir/build
+        Building CXX object CMakeFiles/cmTC_b4b53.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=wsyncup -std=c++17 -MD -MT CMakeFiles/cmTC_b4b53.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_b4b53.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_b4b53.dir/CheckFunctionExists.cxx.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-tnjO3z/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_b4b53
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4b53.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=wsyncup CMakeFiles/cmTC_b4b53.dir/CheckFunctionExists.cxx.o -o cmTC_b4b53  /usr/local/opt/ncurses/lib/libcurses.dylib
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:220 (find_path)"
+      - "CMakeLists.txt:34 (find_package)"
+    mode: "path"
+    variable: "CURSES_INCLUDE_PATH"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ncurses/ncurses.h"
+      - "ncurses/curses.h"
+      - "ncurses.h"
+      - "curses.h"
+    candidate_directories:
+      - "/usr/local/opt/ncurses/include/"
+      - "/usr/local/opt/ncurses/"
+      - "/opt/homebrew/opt/ncurses/include/"
+      - "/opt/homebrew/opt/ncurses/"
+      - "/usr/local/opt/ncurses/include/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/danieldarsamo/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/usr/local/opt/ncurses/include/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/opt/ncurses/ncurses.framework/Headers/ncurses.h"
+      - "/opt/homebrew/opt/ncurses/include/ncurses.framework/Headers/ncurses.h"
+      - "/opt/homebrew/opt/ncurses/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/opt/ncurses/include/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/.local/bin/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/bin/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/sbin/ncurses.framework/Headers/ncurses.h"
+      - "/System/Cryptexes/App/usr/bin/ncurses.framework/Headers/ncurses.h"
+      - "/usr/bin/ncurses.framework/Headers/ncurses.h"
+      - "/bin/ncurses.framework/Headers/ncurses.h"
+      - "/usr/sbin/ncurses.framework/Headers/ncurses.h"
+      - "/sbin/ncurses.framework/Headers/ncurses.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ncurses.framework/Headers/ncurses.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ncurses.framework/Headers/ncurses.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ncurses.framework/Headers/ncurses.h"
+      - "/pkg/env/global/bin/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Apple/usr/bin/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/share/dotnet/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/.dotnet/tools/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/include/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/ncurses.framework/Headers/ncurses.h"
+      - "/usr/include/ncurses.framework/Headers/ncurses.h"
+      - "/usr/ncurses.framework/Headers/ncurses.h"
+      - "/include/ncurses.framework/Headers/ncurses.h"
+      - "/usr/X11R6/include/ncurses.framework/Headers/ncurses.h"
+      - "/usr/X11R6/ncurses.framework/Headers/ncurses.h"
+      - "/usr/pkg/include/ncurses.framework/Headers/ncurses.h"
+      - "/usr/pkg/ncurses.framework/Headers/ncurses.h"
+      - "/opt/include/ncurses.framework/Headers/ncurses.h"
+      - "/opt/ncurses.framework/Headers/ncurses.h"
+      - "/sw/include/ncurses.framework/Headers/ncurses.h"
+      - "/sw/ncurses.framework/Headers/ncurses.h"
+      - "/opt/local/include/ncurses.framework/Headers/ncurses.h"
+      - "/opt/local/ncurses.framework/Headers/ncurses.h"
+      - "/usr/include/X11/ncurses.framework/Headers/ncurses.h"
+      - "/Users/danieldarsamo/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/Network/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/System/Library/Frameworks/ncurses.framework/Headers/ncurses.h"
+      - "/usr/local/opt/ncurses/include/ncurses.framework/Headers/curses.h"
+      - "/usr/local/opt/ncurses/ncurses.framework/Headers/curses.h"
+      - "/opt/homebrew/opt/ncurses/include/ncurses.framework/Headers/curses.h"
+      - "/opt/homebrew/opt/ncurses/ncurses.framework/Headers/curses.h"
+      - "/usr/local/opt/ncurses/include/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/.local/bin/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/ncurses.framework/Headers/curses.h"
+      - "/usr/local/bin/ncurses.framework/Headers/curses.h"
+      - "/usr/local/sbin/ncurses.framework/Headers/curses.h"
+      - "/System/Cryptexes/App/usr/bin/ncurses.framework/Headers/curses.h"
+      - "/usr/bin/ncurses.framework/Headers/curses.h"
+      - "/bin/ncurses.framework/Headers/curses.h"
+      - "/usr/sbin/ncurses.framework/Headers/curses.h"
+      - "/sbin/ncurses.framework/Headers/curses.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ncurses.framework/Headers/curses.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ncurses.framework/Headers/curses.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ncurses.framework/Headers/curses.h"
+      - "/pkg/env/global/bin/ncurses.framework/Headers/curses.h"
+      - "/Library/Apple/usr/bin/ncurses.framework/Headers/curses.h"
+      - "/usr/local/share/dotnet/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/.dotnet/tools/ncurses.framework/Headers/curses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.framework/Headers/curses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/ncurses.framework/Headers/curses.h"
+      - "/usr/local/include/ncurses.framework/Headers/curses.h"
+      - "/usr/local/ncurses.framework/Headers/curses.h"
+      - "/usr/include/ncurses.framework/Headers/curses.h"
+      - "/usr/ncurses.framework/Headers/curses.h"
+      - "/include/ncurses.framework/Headers/curses.h"
+      - "/usr/X11R6/include/ncurses.framework/Headers/curses.h"
+      - "/usr/X11R6/ncurses.framework/Headers/curses.h"
+      - "/usr/pkg/include/ncurses.framework/Headers/curses.h"
+      - "/usr/pkg/ncurses.framework/Headers/curses.h"
+      - "/opt/include/ncurses.framework/Headers/curses.h"
+      - "/opt/ncurses.framework/Headers/curses.h"
+      - "/sw/include/ncurses.framework/Headers/curses.h"
+      - "/sw/ncurses.framework/Headers/curses.h"
+      - "/opt/local/include/ncurses.framework/Headers/curses.h"
+      - "/opt/local/ncurses.framework/Headers/curses.h"
+      - "/usr/include/X11/ncurses.framework/Headers/curses.h"
+      - "/Users/danieldarsamo/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/Network/Library/Frameworks/ncurses.framework/Headers/curses.h"
+      - "/System/Library/Frameworks/ncurses.framework/Headers/curses.h"
+    found: "/usr/local/opt/ncurses/include/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/usr/local/opt/ncurses"
+        - "/opt/homebrew/opt/ncurses"
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:231 (check_library_exists)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Looking for cbreak in /usr/local/opt/ncurses/lib/libncurses.dylib"
+    directories:
+      source: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-LHUrNK"
+      binary: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-LHUrNK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CURSES_NCURSES_HAS_CBREAK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-LHUrNK'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_78f8d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_78f8d.dir/build.make CMakeFiles/cmTC_78f8d.dir/build
+        Building CXX object CMakeFiles/cmTC_78f8d.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=cbreak -std=c++17 -MD -MT CMakeFiles/cmTC_78f8d.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_78f8d.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_78f8d.dir/CheckFunctionExists.cxx.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-LHUrNK/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_78f8d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78f8d.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=cbreak CMakeFiles/cmTC_78f8d.dir/CheckFunctionExists.cxx.o -o cmTC_78f8d  /usr/local/opt/ncurses/lib/libncurses.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:233 (check_library_exists)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Looking for nodelay in /usr/local/opt/ncurses/lib/libncurses.dylib"
+    directories:
+      source: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-bjLABV"
+      binary: "/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-bjLABV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CURSES_NCURSES_HAS_NODELAY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-bjLABV'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2284/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e2284.dir/build.make CMakeFiles/cmTC_e2284.dir/build
+        Building CXX object CMakeFiles/cmTC_e2284.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=nodelay -std=c++17 -MD -MT CMakeFiles/cmTC_e2284.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_e2284.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_e2284.dir/CheckFunctionExists.cxx.o -c /Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/build/CMakeFiles/CMakeScratch/TryCompile-bjLABV/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_e2284
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2284.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=nodelay CMakeFiles/cmTC_e2284.dir/CheckFunctionExists.cxx.o -o cmTC_e2284  /usr/local/opt/ncurses/lib/libncurses.dylib
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:308 (find_library)"
+      - "CMakeLists.txt:34 (find_package)"
+    mode: "library"
+    variable: "CURSES_FORM_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "form"
+    candidate_directories:
+      - "/usr/local/opt/ncurses/lib/"
+      - "/usr/local/opt/ncurses/"
+      - "/usr/local/opt/ncurses/lib/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    found: "/usr/local/opt/ncurses/lib/libform.dylib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/usr/local/opt/ncurses"
+        - "/opt/homebrew/opt/ncurses"
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/local/share/cmake/Modules/FindCurses.cmake:331 (find_package)"
+      - "CMakeLists.txt:34 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/usr/local/opt/ncurses/bin/"
+      - "/usr/local/opt/ncurses/sbin/"
+      - "/usr/local/opt/ncurses/"
+      - "/opt/homebrew/opt/ncurses/bin/"
+      - "/opt/homebrew/opt/ncurses/sbin/"
+      - "/opt/homebrew/opt/ncurses/"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/danieldarsamo/.local/bin/"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/danieldarsamo/.dotnet/tools/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/danieldarsamo/Applications/"
+      - "/Applications/"
+    searched_directories:
+      - "/usr/local/opt/ncurses/bin/pkg-config"
+      - "/usr/local/opt/ncurses/bin/pkgconf"
+      - "/usr/local/opt/ncurses/sbin/pkg-config"
+      - "/usr/local/opt/ncurses/sbin/pkgconf"
+      - "/usr/local/opt/ncurses/pkg-config"
+      - "/usr/local/opt/ncurses/pkgconf"
+      - "/opt/homebrew/opt/ncurses/bin/pkg-config"
+      - "/opt/homebrew/opt/ncurses/bin/pkgconf"
+      - "/opt/homebrew/opt/ncurses/sbin/pkg-config"
+      - "/opt/homebrew/opt/ncurses/sbin/pkgconf"
+      - "/opt/homebrew/opt/ncurses/pkg-config"
+      - "/opt/homebrew/opt/ncurses/pkgconf"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/pkg-config"
+      - "/Users/danieldarsamo/.gemini/antigravity-ide/bin/pkgconf"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/pkg-config"
+      - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin/pkgconf"
+      - "/Users/danieldarsamo/.local/bin/pkg-config"
+      - "/Users/danieldarsamo/.local/bin/pkgconf"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/pkg-config"
+      - "/Users/danieldarsamo/.antigravity/antigravity/bin/pkgconf"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/pkg-config"
+      - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/System/Cryptexes/App/usr/bin/pkg-config"
+      - "/System/Cryptexes/App/usr/bin/pkgconf"
+      - "/usr/bin/pkg-config"
+      - "/usr/bin/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+      - "/sbin/pkg-config"
+      - "/sbin/pkgconf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pkg-config"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pkgconf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pkg-config"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pkgconf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pkg-config"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pkgconf"
+      - "/pkg/env/global/bin/pkg-config"
+      - "/pkg/env/global/bin/pkgconf"
+      - "/Library/Apple/usr/bin/pkg-config"
+      - "/Library/Apple/usr/bin/pkgconf"
+      - "/usr/local/share/dotnet/pkg-config"
+      - "/usr/local/share/dotnet/pkgconf"
+      - "/Users/danieldarsamo/.dotnet/tools/pkg-config"
+      - "/Users/danieldarsamo/.dotnet/tools/pkgconf"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/pkg-config"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/pkgconf"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/pkg-config"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/pkgconf"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/pkg-config"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/pkg-config"
+      - "/usr/local/pkgconf"
+      - "/usr/bin/pkg-config"
+      - "/usr/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+      - "/usr/pkg-config"
+      - "/usr/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/sbin/pkg-config"
+      - "/sbin/pkgconf"
+      - "/usr/X11R6/bin/pkg-config"
+      - "/usr/X11R6/bin/pkgconf"
+      - "/usr/X11R6/sbin/pkg-config"
+      - "/usr/X11R6/sbin/pkgconf"
+      - "/usr/X11R6/pkg-config"
+      - "/usr/X11R6/pkgconf"
+      - "/usr/pkg/bin/pkg-config"
+      - "/usr/pkg/bin/pkgconf"
+      - "/usr/pkg/sbin/pkg-config"
+      - "/usr/pkg/sbin/pkgconf"
+      - "/usr/pkg/pkg-config"
+      - "/usr/pkg/pkgconf"
+      - "/opt/bin/pkg-config"
+      - "/opt/bin/pkgconf"
+      - "/opt/sbin/pkg-config"
+      - "/opt/sbin/pkgconf"
+      - "/opt/pkg-config"
+      - "/opt/pkgconf"
+      - "/sw/bin/pkg-config"
+      - "/sw/bin/pkgconf"
+      - "/sw/sbin/pkg-config"
+      - "/sw/sbin/pkgconf"
+      - "/sw/pkg-config"
+      - "/sw/pkgconf"
+      - "/opt/local/bin/pkg-config"
+      - "/opt/local/bin/pkgconf"
+      - "/opt/local/sbin/pkg-config"
+      - "/opt/local/sbin/pkgconf"
+      - "/opt/local/pkg-config"
+      - "/opt/local/pkgconf"
+      - "/Users/danieldarsamo/Applications/pkg-config"
+      - "/Users/danieldarsamo/Applications/pkgconf"
+      - "/Applications/pkg-config"
+      - "/Applications/pkgconf"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/usr/local/opt/ncurses"
+        - "/opt/homebrew/opt/ncurses"
+      ENV{PATH}:
+        - "/Users/danieldarsamo/.gemini/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/danieldarsamo/.local/bin"
+        - "/Users/danieldarsamo/.antigravity/antigravity/bin"
+        - "/Users/danieldarsamo/.nvm/versions/node/v24.14.1/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/danieldarsamo/Applications"
+        - "/Applications"
+...

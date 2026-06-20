@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - "-std=c++17"
+    - "-I/Users/danieldarsamo/Documents/repos/HEXBINCHAR_FILE_EDITOR_Stephany-Mausse_10254688/src"
+    - "-I/usr/local/opt/ncurses/include"
+  CompilationDatabase: build
+
+Diagnostics:
+  UnusedIncludes: Strict
